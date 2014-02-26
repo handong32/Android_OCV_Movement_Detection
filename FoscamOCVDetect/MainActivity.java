@@ -172,7 +172,7 @@ public class MainActivity extends Activity implements OnSeekBarChangeListener
 	                		//this function retrieves an image from the URL
 	                		//the URL is using the cgi scripts provided by the Foscam camera and returns the current frame in the camera
 	                		//as a jpeg
-	                        performBackgroundTask.execute("http://as7396.myfoscam.org/cgi-bin/CGIProxy.fcgi?usr=Dev1&pwd=Dev1&cmd=snapPicture2");
+	                        performBackgroundTask.execute("http://example.myfoscam.org/cgi-bin/CGIProxy.fcgi?usr=usrpassword&pwd=password&cmd=snapPicture2");
 	                    } catch (Exception e) {
 	                        // TODO Auto-generated catch block
 	                    }
